@@ -1,6 +1,9 @@
 # ProyectoGit
-Trabajo de Git para SI DAW
+Trabajo de Git para Sistemas Informáticos DAW
 
-<b> Índice de contenidos </b>
+<b> Preparación del Servidor </b>
 
-<a href=""> Guía Rápida </a>
+<ol>
+  <li> Se instala y configura ssh
+  <li> Se instala y configura git
+<ol>
