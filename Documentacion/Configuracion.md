@@ -15,17 +15,22 @@ se utiliza con la opción <b> --global </b>.<br>
 <br>
 La configuración de cada nivel sobreescribe a la del anterior. Las opciones pueden ser para cliente o para servidor, aquí veremos las más importantes<br>
 
-<h3>Opciones de Cliente</h3>
+<h3>Opciones en Cliente</h3>
 
 - <b>core.editor</b>: Editor de texto para los mensajes, por defecto será el del sistema, o vi si no hay.
 - <b>commit.template</b>: Ruta de un fichero que se utilizará como plantilla para los mensajes.
 - <b>core.pager</b>: Paginador cuando se muestra información muy larga, por defecto less.
 - <b>core.excludesfile</b>: Ruta de un fichero que contenga las reglas globales para ignorar archivos.
 - <b>help.autocorrect</b>: Si se pone a 1, git ejecutará automáticamente comandos aunque estén mal escritos.
-- <b>color.ui</b>: Modificar como se colorean las salidas, por defecto se colorea si es un terminal pero no a tuberías o ficheros. También se puede elegir por separado cada elemento a colorear (branch, diff status) y los colores que se quieren ( <i>git config -- global color.diff.meta "blue black bold"</i>).
+- <b>color.ui</b>: Modificar como se colorean las salidas, por defecto se colorea si es un terminal pero no a tuberías o ficheros. También se puede elegir por separado cada elemento a colorear y los colores que se quieren ( <i>git config -- global color.diff.meta "blue black bold"</i>).
 
 También se pueden usar herramientas externas para hacer <b>merge</b> o para <b>diff</b>, esto se configura con:
 - merge.tool 
 - mergetool.tool.cmd
 - mergetool.tool.trustExitCode
 - diff.external
+
+<h3>Opciones en Servidor</h3
+
+- <b>receive.fsckObjects</b>: Si está a true comprobará la integridad de los archivos en cada push que reciva el servidor (el checkshum y que apunte a objectos válidos). Aunque esto consume muchos recursos en proyectos grandes.
+- <b>receive.denyDeletes</b>: Si está a true no permitirá que ningún usuario elimine ramas o etiquetas del servidor, habrá que hacerlo eliminando los archivos manualmente.
