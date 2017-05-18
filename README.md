@@ -13,5 +13,4 @@ Trabajo de Git para Sistemas Informáticos DAW
 - <a href="Documentacion/Servidor.md"> Preparar un servidor</a>
 - Configuración
 - Github
-<br>
 - Resumen de comandos
