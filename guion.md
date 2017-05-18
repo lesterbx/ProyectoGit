@@ -15,7 +15,7 @@
 - Ver como se soluciona el conflicto
 - <b>Explicar las etiquetas</b>
 - Crear etiquetas y usarlas
-- <b> Explicar repositorios remotos y explicacin breve de como se montó el servidor </b>
+- <b> Explicar repositorios remotos y explicación breve de como se montó el servidor </b>
 - Clonar un repositorio del servidor
 - Ver ramas del servidor e información (git remote show origin)
 - Crear una rama con un usuario, hacer cambios y subirla al repositorio
