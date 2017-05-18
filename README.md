@@ -11,6 +11,7 @@ Trabajo de Git para Sistemas Informáticos DAW
 - Etiquetas
 - Repositorios Remotos
 - <a href="Documentacion/Servidor.md"> Preparar un servidor</a>
-- Github
 - Configuración
+- Github
+<br>
 - Resumen de comandos
