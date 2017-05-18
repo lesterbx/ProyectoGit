@@ -17,15 +17,15 @@ La configuración de cada nivel sobreescribe a la del anterior. Las opciones pue
 
 <h3>Opciones de Cliente</h3>
 
-- core.editor: Editor de texto para los mensajes, por defecto será el del sistema, o vi si no hay.
-- commit.template: Ruta de un fichero que se utilizará como plantilla para los mensajes.
-- core.pager: Paginador cuando se muestra información muy larga, por defecto less.
-- core.excludesfile: Ruta de un fichero que contenga las reglas globales para ignorar archivos.
-- help.autocorrect: Si se pone a 1, git ejecutará automáticamente comandos aunque estén mal escritos.
-- color.ui: Modificar como se colorean las salidas, por defecto se colorea si es un terminal pero no a tuberías o ficheros. También se puede elegir por separado cada elemento a colorear (branch, diff status) y los colores que se quieren (git config --global color.diff.meta "blue black bold").
+- <b>core.editor</b>: Editor de texto para los mensajes, por defecto será el del sistema, o vi si no hay.
+- <b>commit.template</b>: Ruta de un fichero que se utilizará como plantilla para los mensajes.
+- <b>core.pager</b>: Paginador cuando se muestra información muy larga, por defecto less.
+- <b>core.excludesfile</b>: Ruta de un fichero que contenga las reglas globales para ignorar archivos.
+- <b>help.autocorrect</b>: Si se pone a 1, git ejecutará automáticamente comandos aunque estén mal escritos.
+- <b>color.ui</b>: Modificar como se colorean las salidas, por defecto se colorea si es un terminal pero no a tuberías o ficheros. También se puede elegir por separado cada elemento a colorear (branch, diff status) y los colores que se quieren ( <i>git config -- global color.diff.meta "blue black bold"</i>).
 
 También se pueden usar herramientas externas para hacer <b>merge</b> o para <b>diff</b>, esto se configura con:
 - merge.tool 
-- mergetool.<tool>.cmd
-- mergetool.<tool>.trustExitCode
+- mergetool.tool.cmd
+- mergetool.tool.trustExitCode
 - diff.external
