@@ -23,7 +23,8 @@
 - Ir viendo el log y resolver conflictos si surgen
 - Fusionar las ramas con algun usuario y subirlo al servidor
 - Crear tambien alguna etiqueta y compartirla entre usuarios
-- <b> Hablar un poco de Github y los archivos de configuración </b>
+- <b> Explicar los archivos de configuración </b>
+- <b> Breve explicación de Github </b>
 
 
 
