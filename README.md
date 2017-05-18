@@ -10,6 +10,6 @@ Trabajo de Git para Sistemas Informáticos DAW
 - Ramas
 - Etiquetas
 - Remotos
-- Preparar un servidor
+- <a href="Servidor.md"> Preparar un servidor</a>
 - Configuración
 - Resumen de comandos
