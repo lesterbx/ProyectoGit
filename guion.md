@@ -1,7 +1,7 @@
 <h2>Guión para la exposición </h2>
 
 - Explicar control de versiones y git
-- Crear repositorio vacío
+- Crear repositorio vacío (explicar .git y .gitignore)
 - Crear archivo html y añadir contenido, ver los estados de git al hacer add y commit 
 - Hacer cambios en el archivo y/o crear otro archivo e ir viendo otra vez los estados (ver git diff de los archivos)
 - Ver log con los diferentes commit
