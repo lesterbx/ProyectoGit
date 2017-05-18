@@ -27,6 +27,6 @@
 - <b> Breve explicación de Github </b>
 
 <br><br>
-¡¡Falta como deshacer los cambios!!
+Falta como deshacer los cambios
 
 
