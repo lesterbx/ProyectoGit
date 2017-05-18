@@ -1,4 +1,4 @@
-<h1>Preparando el Servidor</h1>
+<h2>Preparando el Servidor</h2>
 
 Los repositorios se almacenarán en un servidor con acceso ssh, para el acceso se podrían crear cuentas por cada usuario pero si hay muchos usuarios esto se hace pesado. 
 Para evitar esto se puede crear una única cuenta git a la que accederán todos los usuarios. Para acceder a esta cuenta por ssh se van a usar claves públicas y así no habrá que poner la contraseña siempre, para esto cada usuario genera una clave pública ( comando <b>ssh-keygen</b> en <b>~/.ssh</b>) y se guardan todas en el directorio <b>~/.ssh/authorized_keys</b> de la cuenta git del servidor. 
