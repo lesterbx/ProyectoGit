@@ -20,7 +20,7 @@
 - Ver ramas del servidor e información (git remote show origin)
 - Crear una rama con un usuario, hacer cambios y subirla al repositorio
 - Con otro usuario bajar la rama, hacer cambios también sobre ella y subirla
-- Ir viendo el log y resolver conflictos si surgen
+- Ir viendo el log y provocar conflictos si surgen
 - Fusionar las ramas con algun usuario y subirlo al servidor
 - Crear tambien alguna etiqueta y compartirla entre usuarios
 - <b> Explicar los archivos de configuración </b>
