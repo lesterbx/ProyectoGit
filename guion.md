@@ -26,6 +26,7 @@
 - <b> Explicar los archivos de configuración </b>
 - <b> Breve explicación de Github </b>
 
-
+<br><br>
+¡¡Falta como deshacer los cambios!!
 
 
