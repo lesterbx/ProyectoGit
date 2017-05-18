@@ -1,4 +1,4 @@
-<h2>Guin para la exposición </h2>
+<h2>Guión para la exposición </h2>
 
 - Explicar control de versiones y git
 - Crear repositorio vacío
