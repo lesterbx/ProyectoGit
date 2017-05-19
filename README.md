@@ -6,7 +6,6 @@ Trabajo de Git para Sistemas Informáticos DAW
 - <a href="Documentacion/Control_Versiones.md">Control de versiones</a>
 - Git
 - Uso básico
-- Git por dentro
 - Ramas
 - Etiquetas
 - Repositorios Remotos
@@ -14,6 +13,8 @@ Trabajo de Git para Sistemas Informáticos DAW
 - <a href="Documentacion/Configuracion.md">Configuración</a>
 - Github
 - Resumen de comandos
+Extra
+- Git por dentro
 
 <hr>
 Toda la información ha sido extraída de https://www.git-scm.com
