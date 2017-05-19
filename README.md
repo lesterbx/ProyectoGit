@@ -15,5 +15,5 @@ Trabajo de Git para Sistemas Informáticos DAW
 - Github
 - Resumen de comandos
 
-<h2>Referencias</h2>
+<hr>
 Toda la información ha sido extraída de https://www.git-scm.com
