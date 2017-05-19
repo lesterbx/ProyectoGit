@@ -14,3 +14,6 @@ Trabajo de Git para Sistemas Informáticos DAW
 - <a href="Documentacion/Configuracion.md">Configuración</a>
 - Github
 - Resumen de comandos
+
+<h2>Referencias</h2>
+Toda la información ha sido extraída de https://www.git-scm.com
