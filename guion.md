@@ -1,11 +1,11 @@
 <h2>Guión para la exposición </h2>
 
-- <b>Explicar control de versiones y git</b>
+- <b>Explicar control de versiones y git</b> (Mariana)
 - Crear repositorio vacío (explicar .git y .gitignore)
 - Crear archivo html y añadir contenido, ver los estados de git al hacer add y commit 
 - Hacer cambios en el archivo y/o crear otro archivo e ir viendo otra vez los estados (ver git diff de los archivos)
 - Ver log con los diferentes commit
-- <b>Explicar las ramas (funcionamiento git, objetos, git show)</b>
+- <b>Explicar las ramas (funcionamiento git, objetos, git show)</b> (Evelin)
 - Crear una rama y situarse en ella
 - Hacer varios commit en la rama (ver git diff de las ramas)
 - Ver log (git log --oneline --decorate --graph --all)
@@ -15,7 +15,7 @@
 - Ver como se soluciona el conflicto
 - <b>Explicar las etiquetas</b>
 - Crear etiquetas y usarlas
-- <b> Explicar repositorios remotos y explicación breve de como se montó el servidor </b>
+- <b> Explicar repositorios remotos y explicación breve de como se montó el servidor </b> (Lester) 
 - Clonar un repositorio del servidor
 - Ver ramas del servidor e información (git remote show origin)
 - Crear una rama con un usuario, hacer cambios y subirla al repositorio
@@ -23,7 +23,7 @@
 - Ir viendo el log y provocar conflictos si surgen
 - Fusionar las ramas con algun usuario y subirlo al servidor
 - Crear tambien alguna etiqueta y compartirla entre usuarios
-- <b> Explicar los archivos de configuración </b>
+- <b> Explicar los archivos de configuración </b> 
 - <b> Breve explicación de Github </b>
 
 <br><br>
