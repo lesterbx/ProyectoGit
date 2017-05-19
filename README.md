@@ -13,6 +13,7 @@ Trabajo de Git para Sistemas Informáticos DAW
 - <a href="Documentacion/Configuracion.md">Configuración</a>
 - Github
 - Resumen de comandos
+<br>
 Extra
 - Git por dentro
 
