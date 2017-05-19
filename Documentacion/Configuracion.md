@@ -34,3 +34,6 @@ También se pueden usar herramientas externas para hacer <b>merge</b> o para <b>
 
 - <b>receive.fsckObjects</b>: Si está a true comprobará la integridad de los archivos en cada push que reciva el servidor (el checkshum y que apunte a objectos válidos). Aunque esto consume muchos recursos en proyectos grandes.
 - <b>receive.denyDeletes</b>: Si está a true no permitirá que ningún usuario elimine ramas o etiquetas del servidor, habrá que hacerlo eliminando los archivos manualmente.
+
+<br><br>
+Se pueden ver las posibles configuraciones con <b>man git-config</b>
