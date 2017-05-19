@@ -5,7 +5,7 @@ Lo que más usaremos son archivos de código, pero el control se puede ralizar s
 El control de versiones más básico que se puede hacer es algo manual, por ejemplo ir guardando los archivos en distintas carpetas, pero esto es un método muy propenso a tener errores, por lo que hace mucho que aparececieron herramientas que facilitan el control.
 
 <h4>Sistemas Locales</h4>
-Es una base de datos local que registra todos los cambios que se van haciendo a los archivos, una herramienta popular fue <b>rcs</b>, que permite gestionar archivos individuales por un solo usuario y almacena únicamente las diferencias entre archivos.
+Es una base de datos local que registra todos los cambios que se van haciendo a los archivos, una herramienta popular fue <b>rcs</b>, que permite gestionar archivos individuales por un único usuario y almacena únicamente las diferencias entre archivos.
 <br>
 <img src="https://git-scm.com/figures/18333fig0101-tn.png">
 
