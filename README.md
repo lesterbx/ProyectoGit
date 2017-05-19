@@ -19,5 +19,5 @@ Extra
 - Git por dentro
 
 <hr>
-Toda la información ha sido extraída de https://www.git-scm.com
+Toda la información ha sido extraída de https://git-scm.com/book/en/v2
 
