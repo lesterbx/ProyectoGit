@@ -29,3 +29,22 @@ Es recomendable añadir un mensaje que describa los cambios y responda a las sig
 - ¿Qué cambios se han hecho?<br>
 - ¿Qué consecuencias se espera de dicho cambio?
 
+<h4>6.	Examinar el registro</h4>
+Para visualizar el historial de commits basta con  ejecutar el comando  <b>git log</b>
+Este comando presenta distintas opciones adicionales como: <b>git log --oneline --decorate --graph</b>
+
+<h4>7.	Creación de ramas</h4>
+El flujo de trabajo de git se basa en ramas. Una rama es una línea de desarrollo donde un commit sigue al anterior. Para crear una rama ejecutamos el siguiente comando: <b>git branch "nombre_rama"</b>
+Para cambiar de ramas se ejecuta el comando: <b>git checkout</b>
+Si vamos a crear una nueva rama y cambiar a ella podemos utilizar un solo comando: <b>git checkout -b "nombre_rama"</b>
+
+<h4>8.	Borrar ramas</h4>
+Para borrar una rama ejecutamos el comando: <b>git branch -d "nombre_rama"</b>
+
+<h4>9.	Fusión de ramas</h4>
+Para fusionar una rama dentro de otra ejecutamos el comando: <b>git merge "nombre_rama"</b>
+Sin embargo a la hora de fusionar cambios pueden surgir conflictos, cuando esto sucede git añade unas marcas especiales en el archivo que queremos fusionar.
+
+<h4>10.	Examinar commits</h4>
+Para volver a un commit atrás en el tiempo podemos ejecutar el siguiente comando: <b>git checkout "código_commit"</b>
+
