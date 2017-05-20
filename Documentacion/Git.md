@@ -5,8 +5,8 @@
 <li>Enfocado a la velocidad, uso práctico y manejo de  proyectos grandes.</li>
 <li>Creado por Linus Torvalds, el creador del núcleo  Linux.</li>
 <li>No hay una copia original del código del proyecto, solo existen las distintas copias de trabajo. </li>
--Operaciones como los commits, mirar el historial o rehacer cambios, no necesitan de una conexión con un servidor central, esta conexión solo es necesaria al “compartir” tu rama con otro cliente del sistema. 
--Cada copia de trabajo es una copia remota del código fuente y de la historia de cambios, dando una seguridad muy natural contra la pérdida de los datos.
+<li>Operaciones como los commits, mirar el historial o rehacer cambios, no necesitan de una conexión con un servidor central, esta conexión solo es necesaria al “compartir” tu rama con otro cliente del sistema. </li>
+<li>Cada copia de trabajo es una copia remota del código fuente y de la historia de cambios, dando una seguridad muy natural contra la pérdida de los datos.</li>
 </ul>
 
 Git modela sus datos como un conjunto de instantáneas(snapshots) de un mini sistema de archivos. Cada vez que confirmas un cambio, o guardas el estado de tu proyecto en Git, él básicamente hace una foto del aspecto de todos tus archivos en ese momento, y guarda una referencia a esa instantánea.
@@ -17,7 +17,8 @@ Git tiene tres estados principales en los que se pueden encontrar tus archivos: 
 
 El flujo de trabajo básico en Git es algo así:
 
--Modificas una serie de archivos en tu directorio de trabajo.
--Preparas los archivos, añadiendolos a tu área de preparación.
--Confirmas los cambios, lo que toma los archivos tal y como están en el área de preparación, y almacena esas instantáneas de manera permanente en tu directorio de Git.
-
+<ul>
+<li>Modificas una serie de archivos en tu directorio de trabajo.</li>
+<li>Preparas los archivos, añadiendolos a tu área de preparación.</li>
+<li>Confirmas los cambios, lo que toma los archivos tal y como están en el área de preparación, y almacena esas instantáneas de manera permanente en tu directorio de Git.</li>
+</ul>
