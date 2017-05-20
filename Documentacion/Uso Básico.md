@@ -2,8 +2,10 @@
 
 <h4>1.	Configuración</h4>
 Una vez instalado es importante configurar el nombre y email en git para poder identificar a los autores de los cambios que se hacen sobre un proyecto. Para ello, ejecutamos las siguientes instrucciones desde la terminal:
-git config --global user.name “Nombre”
-git config --global user.email “<ejemplo@correo.com>” 
+
+<h2>git config --global user.name “Nombre”
+
+git config --global user.email “<ejemplo@correo.com>” </h2>
 
 <h4>2.	Creación de un repositorio</h4>
 En git, el contenido de un proyecto se guarda en un repositorio. Para iniciar un repositorio vacío, lo primero es situarse en la carpeta donde vamos a guardar dicho repositorio y ejecutar el siguiente comando:
