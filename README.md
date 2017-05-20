@@ -4,7 +4,7 @@ Trabajo de Git para Sistemas Informáticos DAW
 <h2> Documentación</h2>
 
 - <a href="Documentacion/Control_Versiones.md">Control de versiones</a>
-- Git
+- <a href="Documentacion/Git.md">Git</a>
 - <a href="Documentacion/Uso_Básico.md">Uso básico</a>
 - <a href="Documentacion/Ramas.md">Ramas</a>
 - Etiquetas
