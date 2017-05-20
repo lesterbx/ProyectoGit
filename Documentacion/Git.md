@@ -1,11 +1,13 @@
 <h2>Git</h2>
--<b></b>Es un sistema de control de versiones distribuido. 
--No depende de acceso a la red o un repositorio  central. 
--Enfocado a la velocidad, uso práctico y manejo de  proyectos grandes.
--Creado por Linus Torvalds, el creador del núcleo  Linux.
--No hay una copia original del código del proyecto, solo existen las distintas copias de trabajo. 
+<ul>
+<li type="circle">Es un sistema de control de versiones distribuido. <li>
+<li>No depende de acceso a la red o un repositorio  central. <li>
+<li>Enfocado a la velocidad, uso práctico y manejo de  proyectos grandes.<li>
+<li>Creado por Linus Torvalds, el creador del núcleo  Linux.<li>
+<li>No hay una copia original del código del proyecto, solo existen las distintas copias de trabajo. <li>
 -Operaciones como los commits, mirar el historial o rehacer cambios, no necesitan de una conexión con un servidor central, esta conexión solo es necesaria al “compartir” tu rama con otro cliente del sistema. 
 -Cada copia de trabajo es una copia remota del código fuente y de la historia de cambios, dando una seguridad muy natural contra la pérdida de los datos.
+</ul>
 
 Git modela sus datos como un conjunto de instantáneas(snapshots) de un mini sistema de archivos. Cada vez que confirmas un cambio, o guardas el estado de tu proyecto en Git, él básicamente hace una foto del aspecto de todos tus archivos en ese momento, y guarda una referencia a esa instantánea.
 
