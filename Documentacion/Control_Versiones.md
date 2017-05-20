@@ -2,7 +2,7 @@
 El control de versiones es un sistema que registra los cambios que se hacen sobre un archivo o conjunto de archivos, de forma que se pueda volver a un estado anterior de los archivos en cualquier momento.
 Lo que más usaremos son archivos de código, pero el control se puede ralizar sobre cualquier tipo de archvos (texto, diseño).
 
-El control de versiones más básico que se puede hacer es algo manual, por ejemplo ir guardando los archivos en distintas carpetas, pero esto es un método muy propenso a tener errores, por lo que hace mucho que aparececieron herramientas que facilitan el control.
+El control de versiones más básico que se puede hacer es algo manual, por ejemplo ir guardando los archivos en distintas carpetas, pero esto es un método muy propenso a tener errores, por lo que hace mucho que aparecieron herramientas que facilitan el control.
 
 <h4>Sistemas Locales</h4>
 Es una base de datos local que registra todos los cambios que se van haciendo a los archivos, una herramienta popular fue <b>rcs</b>, que permite gestionar archivos individuales por un único usuario y almacena únicamente las diferencias entre archivos.
