@@ -1,5 +1,5 @@
 <h2>Git</h2>
--Es un sistema de control de versiones distribuido. 
+-<b></b>Es un sistema de control de versiones distribuido. 
 -No depende de acceso a la red o un repositorio  central. 
 -Enfocado a la velocidad, uso práctico y manejo de  proyectos grandes.
 -Creado por Linus Torvalds, el creador del núcleo  Linux.
