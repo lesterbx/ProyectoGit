@@ -8,7 +8,7 @@ Una vez instalado es importante configurar el nombre y email en git para poder i
 
 <h4>2.	Creación de un repositorio</h4>
 En git, el contenido de un proyecto se guarda en un repositorio. Para iniciar un repositorio vacío, lo primero es situarse en la carpeta donde vamos a guardar dicho repositorio y ejecutar el siguiente comando: <b>git init</b><br>
-Una vez ejecutado este comando se creará una carpeta con la extensión <b>.git.</b>
+Una vez ejecutado este comando se creará una carpeta con la extensión <b>.git</b>
 
 Otra alternativa es clonar un repositorio que se encuentre en otra carpeta del ordenador o desde un sitio remoto para ello hay que ejecutar el comando <b>git clone</b> seguido de un parámetro que especifique la ubicación del repositorio que queremos clonar, por ejemplo: <b>git clone https://github.com/torvalds/linux</b>
 
