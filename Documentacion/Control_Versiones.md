@@ -14,7 +14,7 @@ Permiten la colaboración entre varios usuarios, ya que la base de datos con los
 <br>
 <img src="https://git-scm.com/figures/18333fig0102-tn.png"/>
 
-Pero estos sistemas también tiene desventajas, como que todas las decisiones importantes tienen que ser aprobadas por el responsable, o que al estar la información en un solo sitio es posible que se quede inaccesible algún tiempo o que se pierda o se corrompa si no se tienen copias de seguridad adecuadas.
+Pero estos sistemas también tienen desventajas, como que todas las decisiones importantes tienen que ser aprobadas por el responsable, o que al estar la información en un solo sitio es posible que se quede inaccesible algún tiempo o que se pierda o se corrompa si no se tienen copias de seguridad adecuadas.
 La herramienta más conocida de este tipo es Subversion (<b>svn</b>)
 
 <h4>Sistemas Distribuidos</h4>
