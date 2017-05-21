@@ -10,7 +10,7 @@ Para añadir un repositorio remoto se utiliza el comando <b> git remote add </b>
 <br><br>
 <b><i> git remote add test git@gitserver:/git/project.git </i></b>
 <br><br>
-Si se quiere obtener información de lo que está en el repositorio remoto se utiliza <b> git fetch </b>, esto recupera los datos que no se tengan todavía, pero no une la información con tu trabajo ni se modifica en lo que estás trabajando, para eso se utiliza el comando <b> git pull </b>, est hará que se recuperé la información del repositorio y automátimanete intente fusionar la rama remota con la rama local.
+Si se quiere obtener información de lo que está en el repositorio remoto se utiliza <b> git fetch </b>, esto recupera los datos que no se tengan todavía, pero no une la información con tu trabajo ni se modifica en lo que estás trabajando, para eso se utiliza el comando <b> git pull </b>, esto hará que se recuperé la información del repositorio y automátimanete intente fusionar la rama remota con la rama local.
 <br><br>
 <b><i> git pull origin master </i></b>
 <br><br>
@@ -19,5 +19,23 @@ Para compartir tu trabajo con el repositorio remoto se utiliza el comando <b> gi
 También se puede ver más información de un repositorio con el comando <b> git remote show </b> y el nombre del repositorio. Est dará información de las ramas del repositorio y de como se relacionan con tus ramas locales.
 <br><br>
 Por último se pueden renombrar los repositorios con <b> git remote rename </b> y se pueden eliminar con <b> git remote rm </b>.
+
+<h3>Ramas Remotas</h3>
+
+Son copias locales que hacen referencia al el estado de las ramas en los repositorios remotos, y se actualizan automáticamente  al conectarse con ellos. Se suelen referenciar como <b><i>(remoto)/(rama)</i></b>. Al clonar un repositorio git crea tu rama <b>master</b> y la rama <b>origin/master</b> que apunta a la rama <b>master</b> del repositorio <b>origin</b>. De forma que los registros pueden avanzar de forma distinta. 
+<br>
+<img src="https://git-scm.com/figures/18333fig0323-tn.png">
+<br>
+Esto también permite tener varios servidores con ramas distintas, por ejemplo para distintos equipos de desarrollo. 
+<br>
+Cuando se hace push sobre una rama remota lo que hace git es sustituir la rama remota por tu rama local, por eso obliga a tener todos los cambios que se hayan hecho en el repositorio.
+<br>
+Para trabajar con las ramas remotas se pueden fusionar con alguna rama local, pero lo habitual es tener ramas de seguimiento, que son ramas que tienen una relación directa con alguna rama del repositorio remoto, por lo que al hacer <b>pull</b> sobre ellas recupera las referencias remotas y las fusiona(merge) con la rama local correspondiente. 
+<br><br>
+Para eliminar una rama remota se puede hacer con <b> git push [repositorio] --delete [nombre_rama] </b>
+
+
+
+
 
 
