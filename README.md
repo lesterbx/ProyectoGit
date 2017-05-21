@@ -7,7 +7,7 @@ Trabajo de Git para Sistemas Informáticos DAW
 - <a href="Documentacion/Git.md">Git</a>
 - <a href="Documentacion/Uso_Básico.md">Uso básico</a>
 - <a href="Documentacion/Ramas.md">Ramas</a>
-- Etiquetas
+- <a href="Documentacion/Etiquetas.md">Etiquetas</a>
 - <a href="Documentacion/RepositoriosRemotos.md">Repositorios Remotos</a>
 - <a href="Documentacion/Servidor.md">Preparar un servidor</a>
 - <a href="Documentacion/Configuracion.md">Configuración</a>
