@@ -34,29 +34,31 @@ Para visualizar el historial de commits basta con  ejecutar el comando  <b>git l
 Este comando presenta distintas opciones adicionales como: <b>git log --oneline --decorate --graph</b>
 
 <h4>7. Eliminación de archivos</h4>
-Para eliminar un archivo de Git, e debe eliminarlo del staging index y después confirmar. El comando <b>git rm</b> se encarga de eso, y también elimina el archivo de tu directorio de trabajo.
-Si simplemente se elimina el archivo del directorio de trabajo, aparecerá bajo la cabecera “Modificados pero no actualizados” (“Changes not staged for commit”), es decir sin preparar.
+Para eliminar un archivo de Git, se debe eliminarlo del staging index y después confirmar. El comando <b>git rm</b> se encarga de eso. Previamente habrá que eliminar el archivo del directorio de trabajo. Si simplemente se elimina el archivo del directorio de trabajo, aparecerá bajo la cabecera “Modificados pero no actualizados” (“Changes not staged for commit”), es decir sin preparar.
 
-<h4>8.	Creación de ramas</h4>
+<h4>8. Deshacer cambios</h4>
+Para sacar un archivo del staging index ejecutamos el comando <b>git rest HEAD "nombre_archivo"</b>, de esta manera se evita que sea enviado en la siguiente confirmación. 
+
+<h4>9.	Creación de ramas</h4>
 El flujo de trabajo de git se basa en ramas. Una rama es una línea de desarrollo donde un commit sigue al anterior. Para crear una rama ejecutamos el siguiente comando: <b>git branch "nombre_rama"</b>
 Para cambiar de ramas se ejecuta el comando: <b>git checkout</b>
 Si vamos a crear una nueva rama y cambiar a ella podemos utilizar un solo comando: <b>git checkout -b "nombre_rama"</b>
 
-<h4>9.	Borrar ramas</h4>
+<h4>10.	Borrar ramas</h4>
 Para borrar una rama ejecutamos el comando: <b>git branch -d "nombre_rama"</b>
 
-<h4>10.	Fusión de ramas</h4>
+<h4>11.	Fusión de ramas</h4>
 Para fusionar una rama dentro de otra ejecutamos el comando: <b>git merge "nombre_rama"</b>
 Sin embargo a la hora de fusionar cambios pueden surgir conflictos, cuando esto sucede git añade unas marcas especiales en el archivo que queremos fusionar.
 
-<h4>11.	Examinar commits</h4>
+<h4>12.	Examinar commits</h4>
 Para volver a un commit atrás en el tiempo podemos ejecutar el siguiente comando: <b>git checkout "código_commit"</b>
 
-<h4>12. Push a repositorios remotos</h4>
+<h4>13. Push a repositorios remotos</h4>
 Cuando el proyecto recibe cambios de muchas personas lo normal es establecer un repositorio central al que todos envían código. Para poder estar establecer un repositorio remoto podemos ejecutar el comando <b>git remote</b> seguido del nombre sel remoto y la dirección para acceder a ese remoto, por ejemplo: <b>git remote add origin https://github.com/usuario/proyecto.git</b>
 Cuando se hace un clone de un remoto automaticamente ese repositorio se establece como remoto.
 Una vez establecido el remoto podemos enviar cambios a dicho repositorio remoto mediante el comando <b>git push</b>, seguido del remoto al que queremos enviar cambios y la rama que queremos enviar, por ejemplo: <b>git push origin master</b>
 
-<h4>13. Actualización de repositorios</h4>
+<h4>14. Actualización de repositorios</h4>
 Desde el punto de vista de git los repositorios remotos contienen otras ramas nuevas que son las remotas, por ejemplo si tenemos en nuestro ordenador tenemos una rama master en el repositorio remoto tendremos otra llamada origin/master. Podemos ver todas las ramas
 incluidas las remotas ejecutamos el comando <b>git branch --all</b>. Con el comando <b>git pull origin master</b> podemos sincronizar cambios precedentes del repositorio origen.
