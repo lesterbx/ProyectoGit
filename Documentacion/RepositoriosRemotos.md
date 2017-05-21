@@ -25,12 +25,12 @@ Por último se pueden renombrar los repositorios con <b> git remote rename </b> 
 Son copias locales que hacen referencia al el estado de las ramas en los repositorios remotos, y se actualizan automáticamente  al conectarse con ellos. Se suelen referenciar como <b><i>(remoto)/(rama)</i></b>. Al clonar un repositorio git crea tu rama <b>master</b> y la rama <b>origin/master</b> que apunta a la rama <b>master</b> del repositorio <b>origin</b>. De forma que los registros pueden avanzar de forma distinta. 
 <br>
 <img src="https://git-scm.com/figures/18333fig0323-tn.png">
-<br>
+<br><br<
 Esto también permite tener varios servidores con ramas distintas, por ejemplo para distintos equipos de desarrollo. 
-<br>
+<br><br<
 Cuando se hace push sobre una rama remota lo que hace git es sustituir la rama remota por tu rama local, por eso obliga a tener todos los cambios que se hayan hecho en el repositorio.
-<br>
-Para trabajar con las ramas remotas se pueden fusionar con alguna rama local, pero lo habitual es tener ramas de seguimiento, que son ramas que tienen una relación directa con alguna rama del repositorio remoto, por lo que al hacer <b>pull</b> sobre ellas recupera las referencias remotas y las fusiona(merge) con la rama local correspondiente. 
+<br><br<
+Para trabajar con las ramas remotas se pueden fusionar con alguna rama local, pero lo habitual es tener ramas de seguimiento, que son ramas que tienen una relación directa con alguna rama del repositorio remoto, por lo que al hacer <b>pull</b> sobre ellas recupera las referencias remotas y las fusiona(merge) con la rama local correspondiente. La rama master por defecto es una rama de seguimiento de origin/master.
 <br><br>
 Para eliminar una rama remota se puede hacer con <b> git push [repositorio] --delete [nombre_rama] </b>
 
