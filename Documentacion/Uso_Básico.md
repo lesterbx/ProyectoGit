@@ -48,3 +48,11 @@ Sin embargo a la hora de fusionar cambios pueden surgir conflictos, cuando esto 
 <h4>10.	Examinar commits</h4>
 Para volver a un commit atrás en el tiempo podemos ejecutar el siguiente comando: <b>git checkout "código_commit"</b>
 
+<h4>11. Push a repositorios remotos</h4>
+Cuando el proyecto recibe cambios de muchas personas lo normal es establecer un repositorio central al que todos envían código. Para poder estar establecer un repositorio remoto podemos ejecutar el comando <b>git remote</b> seguido del nombre sel remoto y la dirección para acceder a ese remoto, por ejemplo: <b>git remote add origin https://github.com/usuario/proyecto.git</b>
+Cuando se hace un clone de un remoto automaticamente ese repositorio se establece como remoto.
+Una vez establecido el remoto podemos enviar cambios a dicho repositorio remoto mediante el comando <b>git push</b>, seguido del remoto al que queremos enviar cambios y la rama que queremos enviar, por ejemplo: <b>git push origin master</b>
+
+<h4>12. Actualización de repositorios</h4>
+Desde el punto de vista de git los repositorios remotos contienen otras ramas nuevas que son las remotas, por ejemplo si tenemos en nuestro ordenador tenemos una rama master en el repositorio remoto tendremos otra llamada origin/master. Podemos ver todas las ramas
+incluidas las remotas ejecutamos el comando <b>git branch --all</b>. Con el comando <b>git pull origin master</b> podemos sincronizar cambios precedentes del repositorio origen.
