@@ -35,7 +35,7 @@ Git permite ver cualquier objeto de forma entendible con el comando <b>git cat-f
 <br><br>
 También existen los objetos de tipo etiqueta, que contienen el checksum de un comit determinado, así como quien la creo cuando y un mensaje descriptivo. Se almacenan en la carpeta <b><i>.git/refs/tags</i></b>.
 <br><br>
-Las ramas se guardan en la carpeta <b><i>.git/refs/heads/</i></b>, y no son más que archivos con el nombre de la rama y que contienen en el commit al que apuntan.
+Las ramas se guardan en la carpeta <b><i>.git/refs/heads/</i></b>, y no son más que archivos con el nombre de la rama y que contienen el commit al que apuntan.
 <br><br>
 También está el archivo HEAD que referencia al archivo de la rama en la que se encuentra y el directorio remotes donde se guardan las ramas remotas.
 
