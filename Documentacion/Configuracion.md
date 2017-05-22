@@ -32,7 +32,7 @@ También se pueden usar herramientas externas para hacer <b>merge</b> o para <b>
 
 <h3>Opciones en Servidor</h3
 
-- <b>receive.fsckObjects</b>: Si está a true comprobará la integridad de los archivos en cada push que reciva el servidor (el checkshum y que apunte a objectos válidos). Aunque esto consume muchos recursos en proyectos grandes.
+- <b>receive.fsckObjects</b>: Si está a true comprobará la integridad de los archivos en cada push que reciba el servidor (el checkshum y que apunte a objectos válidos). Aunque esto consume muchos recursos en proyectos grandes.
 - <b>receive.denyDeletes</b>: Si está a true no permitirá que ningún usuario elimine ramas o etiquetas del servidor, habrá que hacerlo eliminando los archivos manualmente.
 
 <br><br>
