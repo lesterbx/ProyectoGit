@@ -13,10 +13,7 @@ Trabajo de Git para Sistemas Informáticos DAW
 - <a href="Documentacion/Configuracion.md">Configuración</a>
 - <a href="Documentacion/Github.md">Github</a>
 - <a href="Documentacion/Resumen_De_Comandos.md">Resumen de comandos</a>
-<br>
-Extra
-<br>
-- <a href="Documentacion/Git_por_dentro.md">Git por dentro</a>
+- Extra: <a href="Documentacion/Git_por_dentro.md">Git por dentro</a>
 
 <hr>
 Toda la información ha sido extraída de https://git-scm.com/book/en/v2
