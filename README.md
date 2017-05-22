@@ -16,7 +16,7 @@ Trabajo de Git para Sistemas Informáticos DAW
 <br>
 Extra
 <br>
-- Git por dentro
+- <a href="Documentacion/Git_por_dentro.md">Git por dentro</a>
 
 <hr>
 Toda la información ha sido extraída de https://git-scm.com/book/en/v2
