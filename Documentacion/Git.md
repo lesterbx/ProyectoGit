@@ -11,7 +11,7 @@
 
 Git modela sus datos como un conjunto de instantáneas(snapshots) de un mini sistema de archivos. Cada vez que confirmas un cambio, o guardas el estado de tu proyecto en Git, él básicamente hace una foto del aspecto de todos tus archivos en ese momento, y guarda una referencia a esa instantánea.
 
-Git tiene tres estados principales en los que se pueden encontrar tus archivos: <b>confirmado</b> (committed), <b>modificado</b> (modified), y <b>preparado</b> (staged). Confirmado significa que los datos están almacenados de manera segura en tu base de datos local. Modificado significa que has modificado el archivo pero todavía no lo has confirmado a tu base de datos. Preparado significa que has marcado un archivo modificado en su versión actual para que vaya en tu próxima confirmación.
+Git tiene tres estados principales en los que se pueden encontrar tus archivos: <b>modificado</b> (modified), <b>preparado</b> (staged) y <b>confirmado</b> (committed). Modificado significa que has modificado el archivo pero todavía no lo has confirmado a tu base de datos. Preparado significa que has marcado un archivo modificado en su versión actual para que vaya en tu próxima confirmación. Confirmado significa que los datos están almacenados de manera segura en tu base de datos local.
 
 <img src="https://git-scm.com/figures/18333fig0106-tn.png">
 
