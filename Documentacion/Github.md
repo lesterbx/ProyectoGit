@@ -1,6 +1,6 @@
 <h2>GitHub</h2>
 
-En github se trabaja igual que con otro servidor de git.
+En GitHub se trabaja igual que con otro servidor de Git.
 <br><br>
 Para añadir claves ssh hay que generarla con el comando <b>ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</b>
 Luego se añade en los ajustes de la cuenta en la sección correspondiente.
