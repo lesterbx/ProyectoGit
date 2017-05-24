@@ -1,5 +1,5 @@
 # ProyectoGit
-Trabajo de Git para Sistemas Informáticos DAW
+Trabajo de Git para Sistemas Informáticos (DAW)
 
 <h2> Documentación</h2>
 
