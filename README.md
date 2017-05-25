@@ -1,5 +1,5 @@
 # Control de versiones
-Trabajo de Sistemas Informáticos (DAW).
+Trabajo de Sistemas Informáticos (DAW). <br>
 Control de versiones y Git.
 <hr>
 <h2> Documentación</h2>
@@ -18,5 +18,5 @@ Control de versiones y Git.
 
 <hr>
 Toda la información ha sido extraída de la documentación oficial en https://git-scm.com/book/en/v2
-<br>
-Mariana Gospodinova, Evelin Cueva y Lester Pérez
+<br><br>
+<h4>Mariana Gospodinova, Evelin Cueva y Lester Pérez</h4>
