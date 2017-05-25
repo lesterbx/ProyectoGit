@@ -1,6 +1,7 @@
-# ProyectoGit
-Trabajo de Git para Sistemas Informáticos (DAW)
-
+# Control de versiones
+Trabajo de Sistemas Informáticos (DAW).
+Control de versiones y Git.
+<hr>
 <h2> Documentación</h2>
 
 - <a href="Documentacion/Control_Versiones.md">Control de versiones</a>
@@ -17,4 +18,5 @@ Trabajo de Git para Sistemas Informáticos (DAW)
 
 <hr>
 Toda la información ha sido extraída de la documentación oficial en https://git-scm.com/book/en/v2
-
+<br>
+Mariana Gospodinova, Evelin Cueva y Lester Pérez
