@@ -1,7 +1,7 @@
 # Control de versiones
 Trabajo de Sistemas Informáticos (DAW). <br>
 Control de versiones y Git.
-<hr>
+<br>
 <h2> Documentación</h2>
 
 - <a href="Documentacion/Control_Versiones.md">Control de versiones</a>
